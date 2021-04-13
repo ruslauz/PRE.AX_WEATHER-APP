@@ -1,0 +1,23 @@
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+  max-width: 460px;
+  flex: 0 1 39.45%;
+  min-width: 320px;
+  background: var(--bg-light-color);
+  min-height: 667px;
+  position: sticky;
+  top: 0;
+  overflow: scroll;
+}
+
+@media(max-width: 767px) {
+  .widget {
+    position: relative;
+    flex: 1 100%;
+    max-width: unset;
+    height: auto;
+  }
+}

@@ -1,0 +1,52 @@
+.humidity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%, 0);
+  width: 100%;
+  max-width: 270px;
+}
+
+.percents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2px;
+}
+.percent {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.progress {
+  appearance: none;
+  height: 11px;
+  width: 100%;
+  border: none;
+  margin-bottom: 2px;
+}
+
+.progress::-webkit-progress-bar {
+  background: #E6E6E6;
+  border-radius: 10px;
+}
+.progress::-webkit-progress-value {
+  background: #EC6E4D;
+  border-radius: 10px;
+}
+
+.percentSymbol {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  width: 100%;
+}

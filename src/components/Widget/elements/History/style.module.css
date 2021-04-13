@@ -1,0 +1,46 @@
+.historyList {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 100%;
+  width: 100%;
+  order: 2;
+  margin-top: 20px;
+} 
+
+.historyButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 30px;
+  width: 100%;
+  background-color: var(--bg-light-color);
+  border-radius: 10px;
+  word-wrap: break-word;
+  hyphens:auto;
+}
+
+.historyButton:hover,
+.historyButton:active {
+  background-color: var(--history-button-hover);
+
+}
+
+.historyButton:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.historyButton i {
+  color: var(--disabled-text-color);
+  display: none;
+}
+
+.historyButton:hover i,
+.historyButton:active i {
+  display: flex;
+}
+
+.historyButtonText {
+
+}

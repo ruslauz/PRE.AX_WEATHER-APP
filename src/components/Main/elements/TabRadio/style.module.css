@@ -1,0 +1,33 @@
+.forecast-radio__label {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+
+.forecast-radio__label:first-child {
+  margin-right: 16px;
+}
+
+.forecast-radio__input {}
+
+.forecast-radio__input:checked+.forecast-radio__text {
+  color: var(--text-color);
+}
+
+.forecast-radio__input:checked+.forecast-radio__text::after {
+  content: '';
+  display: flex;
+  height: 3px;
+  background: var(--text-color);
+  position: absolute;
+  width: 100%;
+  bottom: -8px;
+}
+
+.forecast-radio__text {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  white-space: nowrap;
+  color: var(--disabled-text-color);
+}

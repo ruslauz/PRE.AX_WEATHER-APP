@@ -1,0 +1,1 @@
+export { TabRadio } from './TabRadio';

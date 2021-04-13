@@ -1,0 +1,37 @@
+.toggle__label {
+  display: flex;
+  align-items: center;
+  width: 64px;
+  height: 32px;
+  background: var(--bg-light-color);
+  border: 2px solid var(--disabled-text-color);
+  box-sizing: border-box;
+  border-radius: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle__input::before {
+  font-family: 'Font Awesome 5 Free';
+  color: var(--moon-color);
+  font-weight: 900;
+  font-size: 14px;
+  transform: scaleX(-1);
+  content: '\f186';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: var(--text-color);
+  border-radius: 89px;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  transition: .5s;
+}
+
+.toggle__input:checked::before {
+  background: var(--warning-color);
+  left: 36px;
+}

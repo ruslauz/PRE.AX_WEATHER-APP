@@ -1,0 +1,8 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-hidden {
+  visibility: hidden;
+}

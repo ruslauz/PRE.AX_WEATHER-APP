@@ -1,0 +1,80 @@
+.widget__body {
+  width: 100%;
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.widget-body__temp {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 114px;
+  margin-bottom: 17px;
+}
+
+.temp__space {
+  font-weight: 900;
+  font-size: 64px;
+}
+
+.temp__symbol {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+}
+
+.widget-body__text {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 100%;
+  margin-bottom: 17px;
+  text-align: center;
+}
+
+.widget-body__text::first-letter {
+  text-transform: uppercase;
+}
+
+.widget-body__feels-like {
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--disabled-text-color);
+  margin-bottom: 78px;
+}
+
+.widget-body__date {
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--disabled-text-color);
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.date__text {
+  margin-right: 103px;
+}
+
+.date__info::first-letter {
+  text-transform: uppercase;
+}
+
+.widget-body__geo {
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--disabled-text-color);
+  display: flex;
+  align-items: center;
+}
+
+.geo__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.geo_city {}

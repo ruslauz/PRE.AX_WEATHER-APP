@@ -1,0 +1,1 @@
+export { WindDirection } from './WindDirection';

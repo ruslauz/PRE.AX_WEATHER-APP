@@ -1,0 +1,42 @@
+.main__forecast {
+  position: relative;
+}
+
+.forecast__header {
+  display: flex;
+  width: 100%;
+  max-width: 362px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.forecast-header__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 100%;
+  margin-right: 10px;
+}
+
+.forecast-header__radios {
+  display: flex;
+}
+
+@media(max-width: 767px) {
+  .main__forecast {
+    margin-bottom: 59px;
+  }
+
+  .forecast__header {
+    flex-direction: column;
+    max-width: unset;
+    margin-bottom: 42px;
+  }
+
+  .forecast-header__title {
+    margin: 0 0 30px;
+  }
+
+}
+
