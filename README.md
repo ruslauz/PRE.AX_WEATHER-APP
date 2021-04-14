@@ -1,4 +1,4 @@
-# marathon-21-03-25
+# Marathon-21-03-25
 
 Второй марафон Pre.Ax
 
@@ -11,3 +11,7 @@ React приложение Weather App
 3. Запросы к Api локации и погоды
 
 4. Перенос на реакт
+
+## Demo
+
+https://ruslauz.github.io/PRE.AX_WEATHER-APP/[https://ruslauz.github.io/PRE.AX_WEATHER-APP/]
