@@ -14,4 +14,4 @@ React приложение Weather App
 
 ## Demo
 
-https://ruslauz.github.io/PRE.AX_WEATHER-APP/[https://ruslauz.github.io/PRE.AX_WEATHER-APP/]
+[https://ruslauz.github.io/PRE.AX_WEATHER-APP/](https://ruslauz.github.io/PRE.AX_WEATHER-APP/)
