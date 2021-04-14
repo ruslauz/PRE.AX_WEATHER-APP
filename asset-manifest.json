@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/PRE.AX_WEATHER-APP/static/css/main.3d95bc34.chunk.css",
+    "main.js": "/PRE.AX_WEATHER-APP/static/js/main.3e4d7fd0.chunk.js",
+    "runtime-main.js": "/PRE.AX_WEATHER-APP/static/js/runtime-main.49404132.js",
+    "static/js/2.4f427bf3.chunk.js": "/PRE.AX_WEATHER-APP/static/js/2.4f427bf3.chunk.js",
+    "index.html": "/PRE.AX_WEATHER-APP/index.html",
+    "static/js/2.4f427bf3.chunk.js.LICENSE.txt": "/PRE.AX_WEATHER-APP/static/js/2.4f427bf3.chunk.js.LICENSE.txt",
+    "static/media/Vector 5.7f59414c.svg": "/PRE.AX_WEATHER-APP/static/media/Vector 5.7f59414c.svg",
+    "static/media/Vector.3897cdbe.svg": "/PRE.AX_WEATHER-APP/static/media/Vector.3897cdbe.svg",
+    "static/media/style.module.css": "/PRE.AX_WEATHER-APP/static/media/Vector.7ff7f6af.svg",
+    "static/media/compass.27729d49.svg": "/PRE.AX_WEATHER-APP/static/media/compass.27729d49.svg",
+    "static/media/location.989fdbdf.svg": "/PRE.AX_WEATHER-APP/static/media/location.989fdbdf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49404132.js",
+    "static/js/2.4f427bf3.chunk.js",
+    "static/css/main.3d95bc34.chunk.css",
+    "static/js/main.3e4d7fd0.chunk.js"
+  ]
+}
